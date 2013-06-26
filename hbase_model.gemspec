@@ -9,8 +9,8 @@ Gem::Specification.new do |s|
   s.summary           = %q{HBase Ruby client API}
   s.description       = %q{HBase Ruby client API}
   
-  s.add_dependency "activesupport", "~> 3.0.7"
-  s.add_dependency "activemodel", "~> 3.0.7"
+  s.add_dependency "activesupport", ">= 4.0.0"
+  s.add_dependency "activemodel", ">= 4.0.0"
   s.add_dependency "tzinfo"
   # 
   # s.add_development_dependency "rspec"
